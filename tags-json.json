@@ -1,0 +1,165 @@
+"todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "REVIEW",
+        "NOTE",
+        "IDEA",
+        "QUESTION",
+        "DOC",
+        "WIP",
+        "OPTIMIZE",
+        "DONE",
+        "FIXIT",
+        "FIX",
+    ],
+    "todo-tree.highlights.foregroundColourScheme": [
+        "red",
+        "white",
+        "red",
+        "black",
+        "white",
+        "white",
+        "white",
+        "black"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "[ ]": {
+            // "foreground": "#fff700",
+            "background": "#ffffff00",
+            "iconColour": "#fff700",
+            "fontWeight": "bold",
+            "opacity": 0,
+            "gutterIcon": true
+        },
+        "[x]": {
+            // "foreground": "#20c620",
+            "background": "#ffffff00",
+            "iconColour": "#20c620",
+            "fontWeight": "bold",
+            "opacity": 0,
+            "gutterIcon": true
+        },
+        "TODO": {
+            // "foreground": "#fff700",
+            "background": "#ffffff00",
+            "iconColour": "#fff700",
+            "fontWeight": "bold",
+            "opacity": 0,
+            "icon": "tasklist",
+            // "icon": "list-unordered"
+            "gutterIcon": true
+        },
+        "DONE": {
+            // "foreground": "#20c620",
+            "background": "#ffffff00",
+            "iconColour": "#20c620",
+            "fontWeight": "bold",
+            "opacity": 0,
+            "icon": "check",
+            "gutterIcon": true
+        },
+        "DOC": {
+            // "foreground": "#2055c6",
+            "background": "#ffffff00",
+            "iconColour": "#2055c6",
+            "fontWeight": "bold",
+            "opacity": 0,
+            "icon": "book",
+            "gutterIcon": true
+        },
+        "BUG": {
+            // "foreground": "#c62020",
+            "background": "#ffffff00",
+            "iconColour": "#c62020",
+            "fontWeight": "bold",
+            "opacity": 0,
+            "icon": "bug",
+            "gutterIcon": true
+        },
+        "OPTIMIZE": {
+            // "foreground": "#fffb8d",
+            "iconColour": "#fffb8d",
+            "fontWeight": "bold",
+            "opacity": 0,
+            "icon": "rocket",
+            "gutterIcon": true
+        },
+        "NOTE": {
+            // "foreground": "#ff7300",
+            "background": "#ffffff00",
+            "iconColour": "#ff7300",
+            "fontWeight": "bold",
+            "opacity": 0,
+            "icon": "note",
+            "gutterIcon": true
+
+        },
+        "QUESTION": {
+            // "foreground": "#ff8e8e",
+            "background": "#ffffff00",
+            "iconColour": "#ff8e8e",
+            "fontWeight": "bold",
+            "opacity": 0,
+            "icon": "question",
+            "gutterIcon": true
+        },
+        "REVIEW": {
+            // "foreground": "#8dc0ff",
+            "background": "#ffffff00",
+            "iconColour": "#8dc0ff",
+            "fontWeight": "bold",
+            "opacity": 0,
+            "icon": "checklist",
+            "gutterIcon": true
+        },
+        "IDEA": {
+            // "foreground": "#fff700",
+            "background": "#ffffff00",
+            "iconColour": "#fff700",
+            "fontWeight": "bold",
+            "opacity": 0,
+            "icon": "light-bulb",
+            "gutterIcon": true
+        },
+        "HACK": {
+            // "foreground": "#fffb8d",
+            "background": "#ffffff00",
+            "iconColour": "#fffb8d",
+            "fontWeight": "bold",
+            "opacity": 0,
+            "icon": "tools",
+            "gutterIcon": true
+        },
+        // Work In Progress
+        "WIP": {
+            // "foreground": "#91ff8d",
+            "background": "#ffffff00",
+            "iconColour": "#91ff8d",
+            "fontWeight": "bold",
+            "opacity": 0,
+            "icon": "sync",
+            "gutterIcon": true
+        },
+        "FIXME": {
+            // "foreground": "#c62020",
+            "background": "#ffffff00",
+            "iconColour": "#c62020",
+            "fontWeight": "bold",
+            "opacity": 0,
+            "icon": "alert",
+            "gutterIcon": true
+        },
+    },
+    "todo-tree.general.tagGroups": {
+
+        "FIXME": [
+            "FIXME",
+            "FIXIT",
+            "FIX",
+        ]
+    },
